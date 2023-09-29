@@ -67,12 +67,12 @@ ul a {
 }
 
 .left button {
-    width: 20%;
+    width: 23%;
     color: white;
     background: #3882F6;
     border: none;
     border-radius: 5px;
-    height: 28px;
+    height: 32px;
     font-weight: bold;
 }
 
@@ -89,4 +89,36 @@ ul a {
 .right img {
     object-fit: contain;
     max-width: 100%;
+}
+
+/* Information */
+.info-title {
+    text-align: center;
+    font-size: 42px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin: 50px 0px;
+}
+
+.builds {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 150px;
+    padding-bottom: 150px;
+}
+
+.builds img {
+    width: 45%;
+    margin-bottom: 15px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.build {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
 }
