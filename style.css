@@ -74,6 +74,7 @@ ul a {
     border-radius: 5px;
     height: 32px;
     font-weight: bold;
+    font-size: 15px;
 }
 
 .left button:hover {
@@ -92,7 +93,7 @@ ul a {
 }
 
 /* Information */
-.info-title {
+.build-title {
     text-align: center;
     font-size: 42px;
     font-weight: bolder;
@@ -127,4 +128,58 @@ ul a {
 
 .build p {
     font-size: 22px;
+}
+
+/* Quote */
+.quote {
+    background: #E5E7EB;
+    font-size: 38px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 150px;
+}
+
+/* Sign Up */
+.signup {
+    padding: 125px;
+}
+
+.action-content {
+    background: #3882F6;
+    padding: 50px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.action h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.action p {
+    font-size: 24px;
+    color: rgb(229, 229, 229);
+}
+
+.action-button {
+    width: 12%;
+    color: white;
+    background: #3882F6;
+    border: 2px solid white;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.action-button:hover {
+    cursor: pointer;
 }
